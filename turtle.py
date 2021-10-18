@@ -24,7 +24,7 @@ pendown()
 # turtle.done()
 
 for i in range(1, 10920):
-    turtle.speed(0)
+    turtle.speed(1)
     circle(1, 2, 3)
     circle(1 + i, 2 + i, 3 + i)
     i = i + 1
